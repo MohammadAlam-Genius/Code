@@ -1,0 +1,10 @@
+print('Welcome To Check palindrome')
+print('A word that read the same backward as forward is a palindrome')
+n = input('Enter any word or Number :')
+
+if n == n[::-1]:
+	print(f'Yes {n} is a palindrome')	
+else:
+	print(f'No {n} is not a palindrome ')
+  
+print('Thank You!!!')
